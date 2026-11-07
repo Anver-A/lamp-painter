@@ -1,0 +1,28 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2026-11-06
+  Bugfixes:
+    - The always-on switch could not be moved from Always on back to Normal reliably. It is now three
+      radio buttons: Leave as is, Normal, Always on.
+    - Going back to "Leave as is" now restores each lamp's own always-on setting in the preview.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2026-11-06
+  Changes:
+    - "Keep open" is now a pin button in the title bar instead of a checkbox.
+    - The window opens in the top-left corner and remembers where you drag it.
+    - A new selection no longer previews the last colour: the window shows the lamps' own colour and
+      nothing changes until you pick a colour or move the always-on switch.
+    - Changing only the always-on switch keeps each lamp's own colour.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-11-06
+  Features:
+    - Shortcut-bar button (and Alt+L) giving a lamp selection tool: drag selects, shift-drag adds, right-drag removes.
+    - Window with RGB sliders, numeric and hex entry, live swatch, lamp-signal colour presets, saved presets and a colour picker.
+    - Live preview on the real lamps with outlines; Apply commits, Cancel/close/death/leaving restores.
+    - Always-on switch (normal / always on / unchanged).
+    - Circuit-controlled lamps are skipped by default with a warning; optional override.
+    - Ghost lamps: always-on applies directly; colour is stored on the ghost and applied when it is built.
+    - "Undo last paint" button (the game's Ctrl+Z cannot be extended by mods).
+    - Large selections are captured and painted over several ticks to avoid stutter.

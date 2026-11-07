@@ -1,0 +1,9 @@
+{
+  "name": "lamp-painter",
+  "version": "1.1.1",
+  "title": "Lamp Painter",
+  "author": "Anver",
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1.0"],
+  "description": "Shortcut-bar tool: drag over lamps to recolour them in bulk with a live preview, presets and an always-on switch."
+}
